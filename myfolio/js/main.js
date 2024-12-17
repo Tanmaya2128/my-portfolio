@@ -120,14 +120,5 @@
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
 
-
-    // Testimonials carousel
-    $(".testimonials-carousel").owlCarousel({
-        autoplay: true,
-        dots: true,
-        loop: true,
-        items: 1
-    });
-
 })(jQuery);
 
